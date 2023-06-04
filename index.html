@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Planting Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1"></script>
+</head>
+<body>
+    <h1>Planting Calendar</h1>
+    <input type="text" id="searchInput" placeholder="Search..." list="searchOptions">
+    <datalist id="searchOptions"></datalist>
+    <button id="searchButton" onClick="show">Search</button>
+    <div id="searchResult" class="result"></div>
+    <canvas id="chart"></canvas>
+    <div class="legend-container">
+        <div class="legend-item">
+          <div class="legend-color" style="background-color: rgba(255,0,0, 0.5);"></div>
+          <div class="legend-label">Sow</div>
+          <div class="legend-color" style="background-color: rgba(0,255,0, 0.5);"></div>
+          <div class="legend-label">Harvest</div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
