@@ -11,13 +11,13 @@ This app allows you to search for different vegetables and fruits to find out wh
 
 ## Demo
 
-View project demo at [https://mflanagan924.github.io/memory-card-game/](https://mflanagan924.github.io/memory-card-game/).
+View project demo at [https://mflanagan924.github.io/planting-calendar/](https://mflanagan924.github.io/planting-calendar/).
 
 ## Preview
 
 Homepage
 
-<img src="https://raw.githubusercontent.com/mflanagan924/memory-card-game/main/Preview.PNG"></img>
+<img src=""></img>
 
 ## Instructions
 
