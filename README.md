@@ -18,7 +18,7 @@ View project demo at [https://mflanagan924.github.io/planting-calendar/](https:/
 
 Homepage
 
-<img src=""></img>
+<img src="images/preview.PNG"></img>
 
 ## Instructions
 
