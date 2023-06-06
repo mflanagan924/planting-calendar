@@ -7,7 +7,8 @@ This app allows you to search for different vegetables and fruits to find out wh
 * Html
 * CSS
 * Javascript
-* Chart.js
+* [Chart.js](https://www.chartjs.org/docs/latest/)
+* [Font Awesome](https://fontawesome.com/v4/)
 
 ## Demo
 
