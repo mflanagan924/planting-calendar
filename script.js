@@ -294,6 +294,14 @@ function search() {
 const searchButton = document.getElementById('searchButton');
 searchButton.addEventListener('click', search);
 
+// Event listener for search button when pressing the enter button
+document.getElementById("searchInput").addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      document.getElementById("searchButton").click();
+    }
+  });
+
 // Function to update the chart
 let chart;
 
