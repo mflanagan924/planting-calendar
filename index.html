@@ -7,12 +7,14 @@
 </head>
 <body>
     <h1>Planting Calendar</h1>
-    <input type="text" id="searchInput" placeholder="Search..." list="searchOptions">
-    <datalist id="searchOptions"></datalist>
-    <button id="searchButton" onClick="show">Search</button>
+    <div class="searchBar">
+      <input type="text" id="searchInput" placeholder="Search..." list="searchOptions">
+      <datalist id="searchOptions"></datalist>
+      <button id="searchButton" onClick="show"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
     <div id="searchResult" class="result"></div>
-    <canvas id="chart"></canvas>
     <div class="legend-container">
+      <canvas id="chart"></canvas>
         <div class="legend-item">
           <div class="legend-color" style="background-color: rgba(255,0,0, 0.5);"></div>
           <div class="legend-label">Sow</div>
@@ -23,5 +25,6 @@
         </div>
       </div>
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/2a249cc1b2.js" crossorigin="anonymous"></script>
 </body>
 </html>
