@@ -14,7 +14,7 @@ h1 {
   width: 30px;
   height: 30px;
   border-radius: 15px;
-  margin-left: -33px;
+  margin-left: -35px;
   background-color: black;
   color: white;
 }
@@ -27,10 +27,11 @@ h1 {
 }
 
 #searchInput {
-  height: 30px;
+  height: 34px;
   width: 250px;
-  border-radius: 15px;
+  border-radius: 17px;
   padding-left: 20px;
+  border: solid 1px;
 }
 
 .result {
