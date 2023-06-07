@@ -220,6 +220,216 @@ const data = [
         complement: 'Broccoli, kale, cauliflower, and brussels sprouts.',
         space: 'Plant seeds one to two inches apart in rows 18 to 30 inches apart. Sow seeds directly in the soil ¼ to ½ of an inch deep.'
     },
+    {
+        name: 'Blackberries',
+        harvestHistory: [[10,12], [6,9], [0,0], [0,12], [2,3]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/blackberries-g6cc5a73bf_1280.jpg',
+        sun: 'Full sun, light shade',
+        soil: 'Blackberriers prefer moisture-retentive but free-draining soil.',
+        water: 'Blackberry plants require approximately 1 to 2 inches (2.5 - 5 cm) of water per week from mid-May through October.',
+        complement: 'Apple trees, grapes, mint, lemon balm, hyssop, bee balm, borage, tansy, chives, thyme, hazelnut, serviceberry, thmbleberry, roses, sunflowers, beans, peans, garlic, blueberries, and strawberries.',
+        space: 'Trailing blackberry plants should be spaced about 10 feet apart in the row.'
+    },
+    {
+        name: 'Apples',
+        harvestHistory: [[10,12], [7,10], [0,0], [0,12], [0,3]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/apple-g23dccbc64_1280.jpg',
+        sun: 'Full sun',
+        soil: 'Apples grow best on a well-drained, loam soils having a depth of 45 cm and a pH range of pH 5.5-6.5.',
+        water: 'About an inch (2.5 cm.) or so of rainfall every week to ten days is adequate for most apple trees.',
+        complement: 'Lemon balm, borage, artichoke, chives, onions, garlic, fennel, dill, mint, comfrey, dandelion, yarrow, coriander, clover, rhubarb, Siberian pea shrub, marigold, chrysanthemums, nasturtium, wormwood, chamomile, lavender, artemesia, and sea buckthorn.',
+        space: 'Apple is normally planted at a spacing of 4 x 4 m in pits of 60 cm x 60 cm x 60 cm.'
+    },
+    {
+        name: 'Apricots',
+        harvestHistory: [[9,12], [6,9], [0,0], [0,12], [0,0]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/apricots-ga0c815642_1280.jpg',
+        sun: 'Full sun',
+        soil: 'Apricot trees prefer deep, well-drained soil to thrive.',
+        water: 'An apricot tree usually needs 20-35 inches of water per year in order to have good vegetative development and yield.',
+        complement: 'Sunflowers, plums, peaches, basil, onion, wormwood, garlic, strawberry, grape, asparagus, tansy, comfrey, nasturtium, buckwheat, and southernwood.',
+        space: 'The apricot plants are generally spaced at 6 meter x 6 meter.'
+    },
+    {
+        name: 'Blackcurrants',
+        harvestHistory: [[9,12], [6,8], [0,0], [0,12], [0,3]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/spinarum-g209692797_1280.jpg',
+        sun: 'Full sun, light shade',
+        soil: 'Blackcurrants prefer well-drained but moisture-retentive soil, although they will cope in most other soil conditions.',
+        water: 'Water newly planted blackcurrants regularly during their first summer. Once well established, blackcurrants generally only need watering in dry spells, ideally at ground level rather than overhead. But avoid heavy watering when the fruits are ripening, as this can cause the skins to split.',
+        complement: 'Blackcurrants do not grow well with companion plants, so it is best to plant them alone.',
+        space: 'Space plants 1.5–1.8m (5–6ft) apart.'
+    },
+    {
+        name: 'Blueberries',
+        harvestHistory: [[10,12], [6,9], [0,0], [0,12], [0,3]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/blueberries-g4695234ab_1280.jpg',
+        sun: 'Full sun',
+        soil: 'Blueberries require acidic, well-drained, loose soils with a high organic matter content.',
+        water: 'Blueberry plants require at least one inch of water per week.',
+        complement: 'Evergreens, dogwood trees & shrubs, rhododendron & azalea, heather, thyme, cranberry bushes, columbine, mountain laurel, fern, holly, hydrangea, lilac bush, and strawberry.',
+        space: 'Blueberries can be planted as close as 2 - 2½ feet apart to form solid hedgerows or spaced up to 6 feet apart and grown individually. If planted in rows, allow 8 to 10 feet between the rows depending on equipment used for mowing or cultivating.'
+    },
+    {
+        name: 'Cape Gooseberries',
+        harvestHistory: [[4,6], [8,10], [0,0], [0,12], [0,0]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/physalis-g9060c841d_1280.jpg',
+        sun: 'Full sun, light shade',
+        soil: 'It grows well in a wide range of soil types from gravely loams to heavy loams, but does best in a moist well drained sandy loam and seems to thrive on neglect. If drainage is a problem plant bushes on mounds.',
+        water: 'The plant does need about 800 milliliters of water daily.',
+        complement: 'Currants, elderberry, and strawberry.',
+        space: 'Sow seed 5mm (1/4in) deep, firm down gently and keep moist. Seedlings appear 7-21 days. Transfer to final growing position when sturdy enough, spacing plants 50cm (20in) apart.'
+    },
+    {
+        name: 'Cherries',
+        harvestHistory: [[10,12], [5,9], [0,0], [0,12], [0,2]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/cherry-g1954bef93_1280.jpg',
+        sun: 'Full sun',
+        soil: 'All cherries prefer deep, fertile, well-drained soil that is ideally slightly acidic, with a pH of 6.5–6.7.',
+        water: 'Established cherry trees rarely need to be watered. In your region, if you receive at least an inch (2.5 cm.) of rain every ten days, your cherry trees should be receiving adequate water.',
+        complement: 'Marigolds, comfrey, dandelion, chives, daisies, spring bulbs, nasturtium, sweet alyssum, lupine and white clover, lavender, and rosemary.',
+        space: 'In regions with cold winters and short grower seasons, dwarf cherry trees need a spacing of 6 to 8 feet, semi-dwarf trees about 15 feet, and standard or full-sized trees about 25 feet.'
+    },
+    {
+        name: 'Cranberries',
+        harvestHistory: [[8,11], [8,11], [0,0], [0,12], [2,5]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/backdrop-g72d7c4b65_1280.jpg',
+        sun: 'Full sun, dappled shade',
+        soil: 'Cranberries require moist, but not saturated, lime-free, humus-rich soil',
+        water: 'The old rule-of-thumb states that cranberry vines need approximately an inch of water a week to grow.',
+        complement: 'Azaleas, blueberries, lingonberries, and rhododendrons.',
+        space: 'Space your cranberry plants 2\' to 3\' apart. They will only grow about 8-10 inches high.'
+    },
+    {
+        name: 'Figs',
+        harvestHistory: [[10,12], [7,9], [0,0], [0,12], [0,3]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/figs-g8d600ef53_1280.jpg',
+        sun: 'Full sun',
+        soil: 'Figs prefer organically rich soil that is consistently moist and well-drained.',
+        water: 'Fig trees needs at least 1 to 1 1/2 inches of water a week.',
+        complement: 'Mediterranean herbs, wildflowers, strawberries, comfrey, rue, and marigolds.',
+        space: 'Figs grown in the bush form may be set as close as 10 feet apart in the row and 15 feet apart between rows. Figs grown in tree form should be set 15 to 20 feet apart in the row and 20 feet apart between rows.'
+    },
+    {
+        name: 'Gooseberries',
+        harvestHistory: [[9,12], [5,7], [0,0], [0,12], [0,3]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/gooseberry-g4b1282aab_1280.jpg',
+        sun: 'Full sun',
+        soil: 'They cope in most soil conditions, but prefer moist, well-drained ground.',
+        water: 'Water newly planted gooseberries regularly for at least the first growing season, until established. After that, watering is seldom required, although in very dry spells water every 14 days.',
+        complement: 'Beans, tomatoes, tansy, chives, marigolds, marjoram, mint, nasturtiums, oregano, and tarragon.',
+        space: 'Allow the following spacings, if planting more than one: Bushes and standards: 1.2–1.5m (4–5ft) apart. Cordons: 30–38cm (12–15in) apart.'
+    },
+    {
+        name: 'Grapes',
+        harvestHistory: [[9,11], [8,10], [0,0], [0,12], [1,4]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/grapes-gf4fdbb80b_1280.jpg',
+        sun: 'Full sun',
+        soil: 'Well-drained, deep, fertile loams are excellent, yet grapes thrive on soils containing clay, slate, gravel, shale, and sand. Gravelly soils generally drain well, and they absorb and reflect the sun\'s warmth, providing heat for the vines.',
+        water: 'Young grapes require about 1/2 to 1 inch of water per week.',
+        complement: 'Hyssop, oregano, basil, beans, blackberries, clover, geraniums, and peas.',
+        space: 'Space vines 6 to 10 feet apart (16 feet for muscadines). For each vine, dig a planting hole 12 inches deep and 12 inches wide. Fill with 4 inches of topsoil.'
+    },
+    {
+        name: 'Melons',
+        harvestHistory: [[3,4], [6,10], [0,0], [0,12], [0,0]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/melon-g048703474_1280.jpg',
+        sun: 'Full sun',
+        soil: 'Melons grow best on well-drained, sandy loam soils, with a pH between 6.0 and 6.5.',
+        water: 'Water deeply and infrequently, one to two inches per week.',
+        complement: 'Peas, pole beans, bush beans, onions, leeks, chives, garlic, cabbage, broccoli, cauliflower, carrots, kale, okra, spinach, sunflowers, lettuce, and Brussels sprouts.',
+        space: 'Plant your melons in single rows after all risk of frost has gone and the soil is warm. Melons should be planted 20-36in (50-90cm) apart leaving 6-8ft (2-2.5m) between rows or other vegetables.'
+    },
+    {
+        name: 'Nectarines',
+        harvestHistory: [[8,12], [6,9], [0,0], [0,12], [0,0]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/nectarines-g99bad8fbd_1280.jpg',
+        sun: 'Full sun',
+        soil: 'Nectarines like deep, fertile, moisture-retentive but well-drained soil.',
+        water: 'Give your tree enough water to soak the ground all around the roots. It\'s important to note that even if you\'re in the midst of a brown-lawn drought, you don\'t want to water too much. Once every 10 days or two weeks is plenty.',
+        complement: 'Coriander, dill, chives, garlic, onions, nasturtiums, marigolds, mint, tansy, bee balm, bergamot, and comfrey.',
+        space: 'Tree spacing should be about 8 to 12 ft. apart.'
+    },
+    {
+        name: 'Peaches',
+        harvestHistory: [[8,12], [6,9], [0,0], [0,12], [0,0]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/apricots-g885a61ab9_1280.jpg',
+        sun: 'Full sun',
+        soil: 'Peaches prefer slightly acid soil (pH 6.0-6.8) and thrive in lightweight loamy, well-draining soil.',
+        water: 'The total minimum water requirement for mature peach trees is about 36 inches per year. Under normal conditions a mature peach tree requires about 35 - 40 gallons of water per day during July and August.',
+        complement: 'Bee balm, cosmos, strawberries, tansy, garlic, legumes, red clover, basil, buckwheat, lupine, chicory, Mexican marigolds, asparagus, Queen Anne’s Lace, and geraniums.',
+        space: 'Plant the peach pit about 3 to 4 inches (8-10 cm.) deep and then cover it with about an inch (2.5 cm.) or so of straw or similar mulch for overwintering.'
+    },
+    {
+        name: 'Pears',
+        harvestHistory: [[10,12], [7,10], [0,0], [0,12], [0,3]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/pear-gb078f54c2_1280.jpg',
+        sun: 'Full sun',
+        soil: 'The soil should be deep, fertile and free draining.',
+        water: 'Newly planted trees need roughly a gallon (4 L.) of water a week, whether that comes from pear tree irrigation, rainfall, or a combination of the two. You can get a sense of whether you need to water by feeling the soil 6 inches (15 cm.) from the trunk and 6 to 10 inches (15-25 cm.) deep. If the soil is damp, the tree doesn’t need to be watered.',
+        complement: 'Broccoli, kale, cauliflower, and brussels sprouts.',
+        space: 'Depending on the landscape, and what your uses may be for your pear trees, try spacing them 15-20 feet apart. No more than 20 feet to ensure the trees cross pollinate.'
+    },
+    {
+        name: 'Plums',
+        harvestHistory: [[10,12], [6,10], [0,0], [0,12], [0,2]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/plums-geba56590c_1280.jpg',
+        sun: 'Full sun',
+        soil: 'Plums like fertile soil, ideally slightly acidic, with a pH of 6–6.5, but they\'re tolerant of a wide range of soils.',
+        water: 'Plum trees should receive at least one inch of water a week.',
+        complement: 'Foxgloves, marigolds, nasturtiums, dill, comfrey, chives, coriander, and lavender.',
+        space: 'Plums grow 20 to 25 feet tall with a spread of 15 to 20 feet, so provide each plant with 20 feet of space on all sides. Dwarf plums grow eight to 10 feet tall and wide. Allot 10 feet of space between these.'
+    },
+    {
+        name: 'Raspberries (Summer)',
+        harvestHistory: [[10,12], [6,8], [0,0], [0,12], [0,3]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/raspberries-gb1e73b848_1280.jpg',
+        sun: 'Full sun',
+        soil: 'Raspberries prefer fertile, well-drained, moisture-retentive soil that is slightly acidic (ideally pH 6.5–6.7).',
+        water: 'During fruit development, raspberries require one to 1-1-/2 inches of water (either from rain or irrigation) per week.',
+        complement: 'Garlic, leeks, chive, onions, chervil, turnips, and yarrow.',
+        space: 'Raspberry plants should be spaced 45–60cm (18–24in) apart, with 1.8m (6ft) between rows.'
+    },
+    {
+        name: 'Raspberries (Autumn)',
+        harvestHistory: [[10,12], [7,11], [0,0], [0,12], [0,3]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/téléchargement.jpg',
+        sun: 'Full sun',
+        soil: 'Raspberries prefer fertile, well-drained, moisture-retentive soil that is slightly acidic (ideally pH 6.5–6.7).',
+        water: 'During fruit development, raspberries require one to 1-1-/2 inches of water (either from rain or irrigation) per week.',
+        complement: 'Garlic, leeks, chive, onions, chervil, turnips, and yarrow.',
+        space: 'Leave 1.8m (6ft) between rows. Each can should be 60cm apart. Plant your canes to a depth of 8cm (3in), gently firm them in, and water well.'
+    },
+    {
+        name: 'Red & Whitecurrents',
+        harvestHistory: [[9,12], [6,8], [0,0], [0,12], [0,3]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/red-current-gc0fcdff0e_1280.jpg',
+        sun: 'Full sun, light shade',
+        soil: 'Redcurrant and whitecurrants are tolerant of quite wide ranging conditions but avoid poor drainage. As far as ph is concerned they prefer to be neutral to slightly acid, but this is only a preference. As long as the soil has good drainage but isn\'t too thin or dry then your new bushes should thrive.',
+        water: 'Currants a deep watering once a week. The best gauge is to keep the soil a little moist but not wet in between watering.',
+        complement: 'Gooseberries, marigolds, chives, and garlic.',
+        space: 'Space 1.5m apart with the same distance between rows to allow plants to expand to their full size at maturity.'
+    },
+    {
+        name: 'Strawberries (Perpetual)',
+        harvestHistory: [[2,10], [4,10], [0,0], [0,12], [0,0]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/strawberries-gd9689c1a0_1280.jpg',
+        sun: 'Full sun',
+        soil: 'Strawberries like fertile, well-drained, slightly acidic soil.',
+        water: 'Everbearing strawberries require regular watering and need one to two inches of water per week during the growing season',
+        complement: 'Beans, borage, chives, lettuce, onions, peas, radishes, and spinach.',
+        space: 'Plant the strawberry plants 30-45cm apart, in rows 75cm apart, so their roots are just buried, and firm the soil around them.'
+    },
+    {
+        name: 'Strawberries (Summer)',
+        harvestHistory: [[2,10], [4,7], [0,0], [0,12], [0,0]], // [second planting,harvest,0,[0,12] accounts for the full year,first planting]
+        image: 'images/strawberries-g53d7989a1_1280.jpg',
+        sun: 'Full sun',
+        soil: 'Strawberries like fertile, well-drained, slightly acidic soil.',
+        water: 'During normal weather conditions, strawberries need water equal to 1 to 1.5 inches of rain each week. During hot, dry periods, water as needed to prevent shallow roots from drying out.',
+        complement: 'Beans, borage, chives, lettuce, onions, peas, radishes, and spinach.',
+        space: 'Plant the strawberry plants 30-45cm apart, in rows 75cm apart, so their roots are just buried, and firm the soil around them.'
+    },
 ];
 
 // Function to populate search options
@@ -343,8 +553,15 @@ if (match) {
         backgroundColor: 'rgba(120,120,120,0)',
         borderWidth: 2
     };
+    //accounts for if the planting is both at the beginning and end of year
+    const newDataset2 = {
+        label: `${match.name}'s Harvest History (Part 4)`,
+        data: [match.harvestHistory[4]],
+        backgroundColor: 'rgba(255,0,0, 0.5)',
+        borderWidth: 2
+    };
     
-    chartData.datasets.push(firstDataset, secondDataset,newDataset);
+    chartData.datasets.push(firstDataset, secondDataset,newDataset,newDataset2);
 
     // Destroy the existing chart before creating a new one
     if (chart) {
