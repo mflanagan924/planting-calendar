@@ -473,7 +473,7 @@ function search() {
         const matchImg = document.createElement('img');
 
         matchDiv.classList.add('result-item');
-        matchDiv.innerHTML = `<span><b>Name:</b> ${match.name}</span><br><span><b>Sun:</b> ${match.sun}</span><br><span><b>Soil:</b> ${match.soil}</span><br><span><b>Water:</b> ${match.water}</span><br><span><b>Companion Plants:</b> ${match.complement}</span><br><span><b>Spacing: </b> ${match.space}</span>`;
+        matchDiv.innerHTML = `<span><b>Name:</b> ${match.name}</span><br><span class="horizontal-line"></span><br><span><b>Sun:</b> ${match.sun}</span><br><span class="horizontal-line"></span><br><span><b>Soil:</b> ${match.soil}</span><br><span class="horizontal-line"></span><br><span><b>Water:</b> ${match.water}</span><br><span class="horizontal-line"></span><br><span><b>Companion Plants:</b> ${match.complement}</span><br><span class="horizontal-line"></span><br><span><b>Spacing: </b> ${match.space}</span>`;
 
         // Set the image source and any other attributes
         matchImg.src = match.image;

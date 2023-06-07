@@ -54,7 +54,15 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
+
+.horizontal-line {
+  width: 625px;
+  height: 2px;
+  background-color: green;
+}
+
 
 canvas {
 position: absolute;
@@ -72,7 +80,7 @@ margin-left: 420px; */
     margin-right: auto;
     margin-left: auto;
     flex-direction: column;
-    border: solid green;
+    border: solid 4px green;
     width: 650px;
     padding: 10px;
     border-radius: 20px;
@@ -98,6 +106,7 @@ img {
     height: 300px;
     object-fit: cover; /* Crop the image to fit within the specified dimensions */
     border-radius: 10px;
+    border: solid green 5px;
 }
 
 .legend-container {
